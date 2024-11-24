@@ -33,7 +33,7 @@ model.add(tf.keras.layers.Dense(1))
 
 # 모델 컴파일 및 학습
 model.compile(optimizer='adam', loss='mean_squared_error')
-model.fit(X, y, batch_size=1, epochs=5)
+model.fit(X, y, batch_size=1, epochs=20)
 
 # 모델 저장
-model.save('train5.h5')
+model.save('train20_3.h5')
